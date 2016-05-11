@@ -10,8 +10,6 @@ app.controller('PostController', ['$scope', function($scope) {
         text: 'How much for that dogg in the window?'
       }
     },
-
-
     {
       author: {
         name: 'Matthew Healy',
