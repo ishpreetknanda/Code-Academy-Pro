@@ -22,11 +22,10 @@
         <div class="content">
 
           <!--TODO: Loop through shows and display each one with this HTML-->
-          <div>
-            <div class="rank" ng-repeat="show in shows">
-            <tv-show info="show">{{$index + 1}} </tv-show>
+          <div ng-repeat="show in shows">
+            <div class="rank"> {{$index + 1}} 
             </div>
-            
+            <tv-show info="show"></tv-show>
             </div>
 
         </div>
