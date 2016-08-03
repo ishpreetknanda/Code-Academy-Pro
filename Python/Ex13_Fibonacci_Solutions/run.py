@@ -1,16 +1,9 @@
-from itertools import count
-count = raw_input("Enter the count: ")
-
-def fib(number):
-    i=1
-    fibi = [1]
-    if i < count:
-        fibi.append(i)
-        i+=1
-        print count
-        print i
-    print fibi
-     
-    
-fib(count)
+def fib():
+    Fibi=[1,1]
+    count = input("Enter count: ")
+    for i in range(1,count):
+        Fibi.append(Fibi[i-1]+Fibi[i])
+        i +=1
+    print Fibi
+fib()
     
